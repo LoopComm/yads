@@ -1,0 +1,11 @@
+name: json-users
+list: 10
+endpoint: http://localhost:8080/${name}
+data: data.json
+type: json
+---
+name: csv-users
+list: 10
+endpoint: http://localhost:8080/${name}
+data: data.csv
+type: csv
